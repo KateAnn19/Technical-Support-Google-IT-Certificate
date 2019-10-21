@@ -1,0 +1,75 @@
+- Technical Support Fundamentals 
+
+8 bits = 1 byte
+each byte can store 1 character and we can have 256 possible values thanks to the base-2 system (2*8)
+
+transistors
+
+logic gates
+
+- Computer Networking
+- Operating Systems 
+- Sys admin and infrastructure services 
+- IT security 
+
+
+Computer is cut into 4 layers 
+1) hardware
+-port = connection point that we can connect devices to that extend the functionality of our computer 
+cpu = central processing unit - brain of computer - does all the calculations and data processing   communicates with 
+RAM = random access memory (computer's short-term memory)
+Hard drive = holds all data we want to keep which includes pictures and music and applications
+motherboard = holds all components in place and allows the parts to communicate with each other 
+power supply
+
+programs = instructions that tell computers what to do 
+we store programs on durable media like hard drives (recipes in cookbooks are like apps stored on a hard drive) 
+
+External Data Bus (EDB) wires that send the data - binary is sent through these 
+
+Registers (inside CPU) - let us store the data that the CPU works with 
+
+Memory controller chip (MCC) is a bridge between the CPU and the RAM
+
+Address Bus connects CPU to the MCC and sends over the location of the data but not the data itself. MCC takes the address and 
+looks for the data. Then the data is sent over the EDB.
+
+RAM isn't the fastest way to get data to the CPU for processing 
+
+Cache does. It is smaller than RAM but let's us store data that we you use most often and let's us quickly reference it. RAM is like a fridge 
+full of food. It's easy to get into but it takes a little bit of time. Cache is like food in our pockets. Used to store recently or 
+frequently accessed data.
+
+there are 3 levels 
+
+L1, L2, and L3    L1 is the smallest and fastest 
+
+How does a CPU know when one set of instructions end and a new one begins? 
+- clock wire 
+
+overclocking tries to speed up the clock cycles but can overheat your GPU
+
+CPU manufacturers or chipsets 
+
+-QUALCOMM
+-Intel
+-AMD
+
+CPU has to be compatible with the motherboard 
+-LGA- Land Grid Array 
+- PGA- Pin Grid Array
+
+CPU is purchased with a 32 bit or 64 bit architecture (see supplemental readings for more info about difference)
+
+heat sink keeps computer from overheating
+
+There are lots of types of RAM 
+
+DRAM
+
+2) software
+3) operating system
+4) users
+
+
+(8 - 10 hours/week) completed in 8 months 
