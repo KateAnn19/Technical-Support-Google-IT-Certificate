@@ -65,7 +65,65 @@ heat sink keeps computer from overheating
 
 There are lots of types of RAM 
 
-DRAM
+DRAM - type of RAM - stores each bit in a microscopic capacitor (this is either the charge or discharge represented by 1's and 0's). These 
+semi-conductors are put into chips that are on the RAM and store our data. There are different types of memory states that DRAM chips can
+be put on. More modern DIMM sticks (dual inline memory module) (have different sizes of pins on them). We don't buy RAM based on the number
+of DRAM chips they have. RAM sticks have to be compatible with mother board. My computer uses VRAM
+
+Motherbaords 
+-made of two chipsets 
+** Northbridge (interconnects RAM and video cards **Southbridge (maintains IO or input/output controllers like harddrives and USB devices)
+some modern CPUs directly integrate the Northbridge into the CPU so there isn't a seperate chipset 
+
+CPU data and peripherals (mouse, keyboard, monitor) are managed by the chipset 
+
+Expansion slots allow users to increase a computer's functionality 
+
+The PCI is the standard for an expansion slot. Express or Peripheral Component Interconnect Express. A PCIe bus looks like a slot on the 
+motherboard. and a PCIe base expansion card looks like a smaller circuit board. 
+
+Form factor - there are different sizes of motherboards available today. These sizes of form factors determine the amount of stuff we can
+put in it and the amount of space we'll have. 
+
+ATX (advanced technology eXtended) (comes in different sizes) is the most common form factor for motherboards. If you don't want to use an ATX you can use an ITX (information
+technology eXtended form factor). The ITX is smaller than the ATX. The form factor plays a role into what expansion slots you might want to use.
+
+Data Sizes :
+-smallest unit of data storage is a bite
+- 8 bits = 1 byte 
+1024 bytes = 1 kilobyte(kb)
+1024 kbs = 1 megabyte(mb)
+1024 megabytes = 1 gigabyte(gb)
+1024 gb's = 1 terabyte
+
+there are 2 types of hard drives
+1) hard disks (hdd) (rpm is the revolution per minute - basically the speed in which data is read and written) 
+a hard drive with a higher RPM is faster. HDDs are prone to damage because there are a lot of moving parts. This susceptibility to damage 
+went away with a new type of drive called an SSD (solid state drive). SSD's have no moving parts. 
+-there are also hybrid SSD's and HDD's 
+
+2) there are a few interfaces that the hard drives use to connect to connect to our system. ATA interfaces are the most common ones.
+Most popular ATA is serial ATA or SATA which uses one cable for data transfers. SATA drives are hot swappable (you don't have to turn off your
+machine to plug in a SATA drive) but SATAs haven't been able to keep up with faster and faster SSDs so a new interface standards were created
+called NVM express or NVMe. Instead of using a cable to connect your drive to your machine the drive was added as an expansion slot which 
+allows for greater throughput of data and increased efficiency 
+
+Computers have a power supply that converts electricity from your volt to something useful.
+There are 2 types - DC (direct current) and AC (alternating current which changes direction all the time). Computers use DC so the power supply
+in the computer converts AC from the power company. Our power supply converts the AC from the wall into low voltage DC power that we can use and
+transmit throughout the computer.
+
+Most power supply units have a fan. They also have voltage information and cables to power motherboard and a power cable.
+
+The amount of electricity coming out is called current or (amperage) and it's measured in amps. Amps pull electricity and volts push 
+electricity. Amps will pull as much electricity as is needed and volts will give you everything.
+
+The back of a device charger may have a 1 or 2.1a. A 2.1a (2.1 amps) will charge a device faster).
+
+Wattage - the amount of volts and amps a device needs
+
+
+
 
 2) software
 3) operating system
