@@ -99,3 +99,186 @@ If you have lots of data you need to process in a command. You need to run lots 
  of form factor you want. Do you want to build something small that can't handle as much workload? Or, do you want a powerhouse 
  workstation that you can add lots of functionality to? The form factor will also play a role into what expansion slots you might
  want to use. 
+
+Hard Drive
+There are two basic hard drive types used today. Hard disk drives, or HDDs, use a spinning platter and a mechanical arm to read and 
+write information. The speed that the platter rotate allows you to read and write data faster. This is commonly referred to as RPM, 
+or revolution per minute. A hard drive with a higher RPM is faster, so if you go out and buy a hard drive today, you might see 
+something like a 500 gigabyte with 5400 RPM. HDDs are prone to a lot more damage because there are a lot of moving parts.
+This susceptibility to damage went away with a new type of storage called solid state drive, or SSD. SSDs have no moving parts. 
+Are you familiar with a USB stick? SSDs are created in a similar way. The information is stored on microchips and data travels a
+lot faster than HDDs. The form factor for SSDs is also slimmer compared to their HDD cousins. Sounds great, doesn't it? So why doesn't 
+everyone use SSDs? Well, both have their pros and cons. HDDs are more affordable, but they're more prone to damage. SSDs are less risky 
+when it comes to losing data, but they're also more expensive. So you may not buy as much memory storage in SSDs than what you can get
+in HDDs. Believe it or not, there are even hybrid SSD and HDD drives out there. They offer SSD performance where you need it. 
+For things like system performance, such as booting your computer, along with hard disk drives for less important stuff, like 
+basic file storage. nstead of using a cable to connect your drive to your machine, the drive was added as an expansion slot, which allows 
+for greater throughput of data and increased efficiency.
+
+Interfaces
+There are a few interfaces that hard drives use to connect to our system. ATA interfaces are the most common ones. The most popular 
+ATA drive is a serial ATA, or SATA, which uses one cable for data transfers. SATA drives are hot swappable. It means you don't have to 
+turn off your machine to plug in a SATA drive. SATA drives move data faster and use a more efficient cable, like this one, than it's
+predecessors. SATA has been the de facto interface for HDDs today. But people quickly found that using a SATA cable wasn't good enough 
+for some of the blazing fast SSDs that were coming on the market. The interface couldn't keep up with speed of the newest SSDs.
+So another interface standard was created called NVM Express, or NVMe.
+
+Power Supplies
+in order to get our computer to work, let's give it some power. Computers have a power supply that converts electricity from your 
+volt to something usable. There are two types of electricity, DC, or direct current, which flows in one direction and AC, or 
+alternating current, which changes directions constantly. Our computers use DC voltage, so we have to have a way to convert the
+AC voltage from our power company to something we can use. That's what our power supply does. It converts the AC we get from the
+wall into low voltage DC power that we can use and transmit throughout our computer. So let's talk about power supplies. I actually 
+have one right here. Let me show you how one looks like. Let me take it out right here.
+So most power supply units have a fan, which is right in here. They also has voltage information just normally listed underneath
+or on the side, and cables, like this one, to power your motherboard, and, A power cable.
+Have you ever plugged one of your devices into the wall outlet and fried your device? If you haven't, you're really lucky. After 
+completing this lesson, hopefully you will know how to avoid that situation. To understand electricity, we must use the example of 
+water pipes. Our sinks have a faucet that's connected to a pressurized water tank. When we turn on the faucet, water comes out. 
+This is sort of like how electricity works. When we plug an appliance into a wall outlet and turn it on, a flow of electricity comes
+out. If we added more pressure to our water tank, would more water come out of it? The higher the pressure, the more water there will
+be. When it comes to electricity, we refer to the pressure as voltage. So when I was on vacation, to my surprise, when I plugged in
+that 120 volt appliance into a 220 volt outlet, the power came busting through and fried my charger. If it was the other way around,
+and a 220 volt appliance was plugged into a 120 volt outlet, I wouldn't have seen the same outcome. I'll still be able to get 
+electricity, but slowly. This would be similar to if a water tank whose only half pressurized, it will drew water, but slowly.
+In some cases though, this can deteriorate the performance of the device and cause damage in the long term. As a general rule,
+be sure to use the proper voltage for your electronics. We refer to the amount of electricity coming out as current or amperage, 
+and it's measured in amps. We can think of amps as pulling electricity, as opposed to voltage, which pushes electricity. Amps will
+pull as much electricity needed, but voltage will just give you everything. Look on the back of the one of your device charges, 
+you might see something like 1 or 2.1a. Charging a device with 2.1 amps will actually charge a device faster because it's able to 
+put current from a 2.1 amp than a 1 amp charger. Finally, the other important part of the electricity that you will need to know is 
+the wattage. Wattage is the amount of volts and amps that a device needs. If your power supply has too low of a wattage, you won't 
+be able to power your computer, so make sure you have enough. This doesn't mean that if you have a large power supply, you'll overpower 
+your computer. Power supplies just give you the amount that your system needs. It's best to error on the side of large power supplies.
+You can power most basic desktops with a 500 watt power supply, but if you're doing something more demanding on your computer, like 
+playing a high-resolution video game or doing a lot of video production and rendering, you'll likely need a bigger power supply for 
+your computer. On the other hand, if all you're doing is just browsing the Web, the power supply that comes with your computer should 
+be fine. All kinds of issues are caused by a bad power supply. Sometimes the computer doesn't even turn on at all. Since power supplies
+can fail for lots of reasons like burnouts, power surges, or even lightning strikes, knowing how to diagnose power issues and replace a 
+failed power supply is a skill every IT support specialist should have in their toolbox.
+
+Mobile Devices 
+Mobile devices are usually very integrated. Remember the systems that we showed you earlier, the components can be taken out and held
+in your hand. Mobile devices build some or all of these components together in a way that you can't take apart. The smaller the device,
+the more integrated the components usually are. The CPU, RAM, and storage, might be soldered directly to the devices motherboard. 
+Very small mobile devices use a system on a chip or SoC. A system on a chip packs the CPU, RAM, and sometimes even the storage onto 
+a single chip. Not only our SoC is small, they use less battery power than if those components were separated. Even though they're 
+small, some mobile devices use peripherals. Smartphones connect to Bluetooth headphones for example. Mobile devices can also be a 
+peripheral. A fitness tracker is a standalone device, but it can also be a peripheral to your smartphone. That same fitness tracker 
+might use a heart rate monitor as a peripheral. It's peripherals all the way down. Mobile devices may use standard or proprietary 
+ports and connectors. You might need to have a specific adapter, or connector for charging a device, or connecting your mobile device
+to a computer. Sometimes the physical shape or the intended use of the mobile device makes a standard connection like USB a bad choice.
+For example, say you have a waterproof fitness tracker. If it had a Micro-USB port, that port would be damaged if exposed to water. 
+So instead, it's designed with a custom charging interface that can be submerged underwater, here's some of the standard power, data,
+and display connector types you'll find used in mobile devices. This is a USB-C, next we have a lightening adapter, then a Mini-USB,
+and a Micro-USB, a Micro-HDMI, and a Mini-HDMI, and this is a Mini DisplayPort. Because mobile devices are generally small and have 
+limited access to power, they run operating systems and applications software that specifically designed to maximize their performance.
+
+Batteries and charging systems
+Sometimes instead of being plugged into a power outlet all the time, we want to take our technology with us. Mobile technology uses 
+rechargeable batteries to carry power with the device, wherever we take it. Rechargeable devices might have an external charger for 
+a removable batteries, or might have a cradle stand or wireless charger. So rechargeable devices might have an external charger for 
+movable battery, or might have a cradle stand or wireless charger. Look at this phone. We're going to top up the battery just by laying 
+it on this wireless inductive charging pad. Isn't that cool? It's also pretty clever technology. If you want to know how this works, 
+check out the next reading. Rechargeable batteries have a limited lifespan which is measured in charge cycles. Charge cycle is one full 
+charge and discharge of the battery. When a battery is reaching the end of its lifespan, it may take longer to charge and might not 
+hold as much charge as when it was new. For some devices, compare the current cycle count of your battery with the rate at cycle count
+of that battery type to see how much more life to expect out of it. You need an external power source to add power to a battery. This 
+could come from a wall outlet, another battery, or even a solar panel. You also need a charging circuit that manages the power transfer 
+from the external power source to the rechargeable battery. This circuit works a lot like a power supply unit or PSU, that we looked 
+at earlier. It makes sure the input power is converted to the correct output power. Instead of using a large PSU, rechargeable devices
+use more portable power adapters, power supplies, or chargers. A portable power supply, powers our device while also charging the 
+battery. This might sound obvious, but you need to make sure that you use the right charger for the right device. Mismatching chargers
+to devices can damage the battery, the device, and the charger. A lot of chargers and power supplies use USB connectors, but you'll 
+see a wide variety of charging connectors. Rechargeable batteries can be damaged by very cold or very hot environments. Don't charge 
+or discharge rechargeable batteries unless they're within their safe operating temperature range. It's not just that a damaged
+rechargeable battery might not perform well, it can also be very dangerous. Batteries can swell, rupture, and sometimes even catch
+fire. Before working with a damaged battery, you should know how to safely handle it. You'll find some supplemental readings after 
+this video that explains how to safely handle lithium ion batteries, which is a very common type of rechargeable battery. Safe 
+handling procedures vary based on the battery type, so be sure to read up on proper procedures before you work with a damaged batter.
+When a battery reaches the end of its life, you'll need to replace it. Some devices will slow themselves down when a battery is getting
+old, to make the battery lasts longer. If your device is running much slower than usual or shutting down unexpectedly, one thing to
+check is the battery life. Some devices have batteries that are designed to be replaced by the end user, other devices have batteries
+that are very difficult to replace like small laptops and mobile devices. As an IT support specialist, you might receive special 
+training on how to replace batteries and devices that you support, or you might be the person sending the device out for battery
+replacement and then returning the device to the end user. IT support specialist often have to troubleshoot battery life and device 
+charging. The first step is to make sure the charger, the battery, and the device, are all designed to work with each other.
+We'll talk about sending out devices for repair and troubleshooting skills in future videos, so stay tuned. For iOS and Android, 
+there are also some things that you could do to make the battery lasts as long as possible. It's a good idea for you to be familiar 
+with these things so that you can help educate end users on the best ways to get the most out of their mobile devices. Check out the 
+supplemental readings to learn more.
+
+Peripheral 
+back of our computer again. Here, you'll see lots of connectors or ports. We can plug in different objects like a mouse, keyboard, 
+and a monitor. These are known as peripherals. A peripheral is basically anything that you connect to your computer externally that 
+adds functionality. You probably used USB devices before. USB, also known as Universal Serial Bus devices are the most popular 
+connections for our gadgets. USB has gone through lots of changes since inception. You most commonly encounter USB 2.0, USB 3.0, and 
+3.1 in today's system. Here's a quick rundown of the different versions. USB 2.0 transfers speeds of 480 megabytes per second, 
+USB 3.0 transfers speeds of five gigabytes per second, USB 3.1 transfers speeds of 10 gigabytes per second. In the chart, let's
+pay attention to the details. Using capital M lowercase b forward slash s instead of using capital M capital B to reference transfer 
+speed. These are actually different units. MB is megabyte or unit of data storage, while capital M lower case b forward slash s is a
+megabit per second, which is a unit of data transfer rate. People often mistake speeds of 40 megabit per second to mean that you
+can transfer 40 megabytes of data per second. Remember, that one byte is 8 bits, so to transfer a one megabyte file in a second
+you need an 8 megabits per second connection speed. So, to transfer 40 megabytes of data in a second, you need a transfer speed of 
+240 megabits per second. You'll also need comparable USB ports to go with your devices. If you connect a USB 2.0 device into a USB 
+3.0 port, you won't get 3.0 transfer speeds. But you can still use the port since it's backward compatible, meaning older hardware 
+work with newer hardware. The ports are easy to differentiate. Let me show you. In general, USB 2.0 are black and USB 3.0 are blue 
+and 3.1 ports are teal. This may change depending on manufacturers. There are lots of types of USB connectors, and you can read about 
+all of them in the supplemental reading right after this video. Check it out. Back to USB connectors. The most recent one is the type 
+C connector which is meant to replace many peripheral connections. It's quickly becoming a universal standard for display and data 
+transfer. In addition to USB peripherals, you should also be aware of display peripherals. There are some common inputs standards to
+know. Most computer monitors will have one or more of these connections, but you might encounter some older standards too. 
+
+DVI. DVI cables generally just output video. If you need to hook up a monitor or projector for a slide presentation and you want audio
+too, you may be out of luck. Instead, you want to look at one of the following cables. HDMI. This has become a standard in lots of
+televisions and computers nowadays and outputs both video and audio. Another standard that's become popular among manufacturers is a 
+displayPort which also outputs audio and video. In addition to audio and video, USB type C can also do data transfer and power. 
+
+As an IT support specialist, you'll work with peripherals like USB devices and display devices a lot. Now, you'll be able to
+distinguish between the major types.
+
+BIOS 
+Okay, now we've seen all the key components to get our computer running. The last thing we'll go over is how our devices talk 
+to each other. We know how programs execute from our hard drive to our CPU, but how do other things like a mouse click or a 
+keyboard press get sent to our CPU for processing? These are fairly basic devices, they don't contain any instructions that our 
+CPU knows how to read.
+
+If you just clicked on the key from your keyboard, you'd only be sending a byte to the CPU. The CPU doesn't know what this is, 
+because it doesn't have instructions on how to deal with it. Turns out our devices also use programs to tell the CPU how to run them.
+These programs are called services or drivers. The drivers contain the instructions our CPU needs to understand external devices
+like keyboards, webcams, printers. Our CPU doesn't know that there is a device that it can talk to, so it has to connect to something 
+called the BIOS, or basic input output services. The BIOS is software that helps initialize the hardware in our computer and gets our 
+operating system up and running.
+
+Unlike the programs, you're probably used to running a web browser or operating system. The BIOS isn't stored on a hard drive. 
+Our motherboard stores the BIOS in a special type of memory called, the read-only memory chip, or ROM chip.
+
+Unlike RAM, ROM is non-volatile, meaning it won't erase the data if the computer is turned off. Once the operating system loads, 
+we're able to load drivers from non-essential devices, directly from the hard drive. In today's system, there is another player for
+BIOS called UEFI, which stands for Unified Extensible Firmware Interface. UEFI performs the same function of starting your computer 
+as a traditional BIOS. But it's more modern and has better compatibility and support for newer hardware. Most hardware out there
+today comes with UEFI built in. Eventually, UEFI will become the predominant BIOS.
+When you turn on a computer, you might notice a beeping from time to time. How computers run a test to make sure all the hardware
+is working correctly. This is called a Power On Self Test or POST. And then BIOS runs it when you boot up your computer.
+The POST figures out what hardware is on the computer. So it happens before the BIOS initializes any hardware or loads up
+essential drivers. If there is an issue with anything at that point, there is no way to display it on the screen, since things
+like the video driver haven't been loaded. Instead, the computer can usually produce a series of beeps, almost like Morse code, 
+which will help identify the problem. Different manufacturers have different beep codes. So, if your computer successfully boots up,
+you may hear a single beep.
+
+If you hear two beeps, it could mean a POST error.
+It's best to refer to your motherboard manual to find out what each code means.
+
+Also, you should know that not all machines have built-in speakers, so don't worry if your computer boots without a beep.
+
+If it does have a built-in speaker, being able to distinguish what the beep codes mean is an extremely helpful tool when 
+troubleshooting boot issues. One last thing, we will discuss are BIOS settings.
+
+There is a special chip on our motherboard called the CMOS battery.
+
+It stores basic data about booting your computer like the date, time and how you wanted to start up. 
+You can change these settings by booting into CMOS or BIOS setting menu. It varies in different computers, 
+but usually when you boot the computer, there will be a quick screen that tells you what button to push to get into the settings.
+
+From there, you can change the basic BIOS settings of your machine.
+
