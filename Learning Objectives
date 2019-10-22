@@ -223,6 +223,25 @@ When you turn on a computer, you might notice a beeping from time to time. How c
 sure all the hardware is working correctly. This is called a Power On Self Test or POST. And then BIOS runs it 
 when you boot up your computer.
 
+The POST figures out what hardware is on the computer. So it happens before the BIOS initializes any hardware or
+loads up essential drivers. If there is an issue with anything at that point, there is no way to display it on the 
+screen, since things like the video driver haven't been loaded. Instead, the computer can usually produce a series of beeps, 
+almost like Morse code, which will help identify the problem. Different manufacturers have different beep codes. So, if your 
+computer successfully boots up, you may hear a single beep.
+If you hear two beeps, it could mean a POST error.
+
+It's best to refer to your motherboard manual to find out what each code means. Also, you should know that not 
+all machines have built-in speakers, so don't worry if your computer boots without a beep.
+
+If it does have a built-in speaker, being able to distinguish what the beep codes mean is an extremely helpful 
+tool when troubleshooting boot issues. One last thing, we will discuss are BIOS settings. There is a special chip 
+on our motherboard called the CMOS chip.
+
+It stores basic data about booting your computer like the date, time and how you wanted to start up. 
+You can change these settings by booting into CMOS or BIOS setting menu. It varies in different computers,
+but usually when you boot the computer, there will be a quick screen that tells you what button to push to get into the settings.
+From there, you can change the basic BIOS settings of your machine.
+
 
 RECAP 
 
