@@ -47,3 +47,34 @@ If you have lots of data you need to process in a command. You need to run lots 
  into very small and simple instructions found in our instruction set. Instruction sets are hard-coded into our CPU. So different 
  CPU manufacturers may use different instructions sets. But they generally perform the same functions. 
  
+ LGA or PGA (types of sockets connecting CPU to motherboard - make sure they're compatible)
+ When we install our CPU, we need to do a few things to it to keep it cool. Since it does a lot of work, 
+ it's prone to overheating. We have to make sure to include a heat sink, too, which takes the heat from our 
+ CPU and dissipates it through a fan or another medium. There's one last thing I want to call out about CPUs. 
+ If you purchase a CPU, you'll see that it has either a 32 bit or 64 bit architecture. What does that mean? Well, 
+ we know we can't process 8 bits in binary. Now, imagine how we can process with 32 or even 64 bits. CPUs that have 
+ 32 bit or 64 bit architecture are just specifying how much data it can efficiently handle. You can read more about the 
+ differences between 32 bit and 64 bit architecture in the next reading. For now, the main takeaway is that the CPU is one 
+ of the most important parts of a computer.
+ 
+ RAM
+ We use RAM to store data that we want to access quickly. This data changes all the time so it isn't permanent. Almost 
+ all RAM is volatile, which means that once we power off our machines, the data stored in RAM is cleared. Remember that our 
+ computer is comprised of programs. To run a program, we need to make a copy of it in RAM so our CPU can process it. When you 
+ see a new phone or laptop that's says it has 16 gigs of RAM, that means it can run up to 16 gigs of programs, meaning you can 
+ run lots of programs at the same time. 
+ there are lots of types of RAM. And the one is commonly found in computers, 
+ is DRAM or dynamic random access memory. Where a one or zero is sent to DRAM, it source each bit in a microscopic capacitor. 
+ This is either the charge or discharge represented by one or zero. These semiconductors are put into chips that are on the RAM 
+ and store our data. There are also different types of memory states that DRAM chips can be put on. The more modern DIMM sticks, 
+ which usually stands for Dual Inline Memory Module, have different sizes of pins on them. I should call out, we don't really buy 
+ RAM based on the number of DRAM chips they have. They are labeled by the capacity of RAM on a stake, like an 8 gig stick of RAM. 
+ After DRAM was created, RAM manufacturers build something called SDRAM which stands for Synchronous DRAM. This type of RAM is 
+ synchronized to our systems' clock speed allowing quicker processing of data. In today's system, we use another type of RAM, 
+ called double data rate SDRAM, or DDR SDRAM for short. Most people refer to this RAM as DDR, even shorter. There were lots of 
+ iterations of DDR, from DDR1, DDR2, DDR3 and now, DDR4. DDR is faster, takes up less power, and has a larger capacity than earlier 
+ SDRAM versions. The latest version, DDR4, is the fastest type of short term memory currently available for your computer. And faster
+ RAM means that programs can be run faster and that more programs can run at the same time. Keep in mind that any RAM sticks you use
+ need a compatible motherboard with a different number of pins aligned with the motherboard RAM slots. Just like with the CPU, make
+ sure that your motherboard is compatible with any RAM sticks that you buy.
+ 
