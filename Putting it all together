@@ -12,3 +12,38 @@ Then there's the power supply
 It converts electricity from the wall into a form that the computer can use (DC)
 All these components make up  most computers even a phone
 The phone just uses a smaller version of these parts
+
+Programs-tell computers what to do
+CPU- does the things that the program tells to do
+RAM-holds the information that the programs are giving to CPU so the CPU can work faster. This is faster than storing the information
+into the hard drive.
+The instructions to the CPU are written in binary 
+The EDB (external data bus) carries the instructions around the computer (techincally a row of wires that interconnect parts of the computer)
+When a voltage is sent to one of the wires you say that the state of the wire is on or 1   or it is off and 0
+Bits physically travel around the computer with the EDB which comes in different sizes 8 bit, 16 bit, 32, even 64. 
+When a CPU receives a byte it is stored on registers so the CPU can work with it. Even the answer is stored on registers
+We don't send data from RAM over the EDB. This process happens with the MCC or memory controller chip. RAM has a shit ton of data and we need
+to send it one byte at a time. CPU is connected to RAM through MCC
+There's also and address bus which connects the CPU to the MCC and sends over the location of the data but not the data itself
+The MCC then takes the address and looks for the data in RAM. Then the data is sent through the MCC to CPU
+Cache can get data to CPU faster than RAM can L1 to L3. L1 is the smallest and fastest.
+how does our CPU know when the set of instruction ends, and a new one begins?
+CPU has an internal clock that keeps its operational in sync.
+It connects to a special wire called Clock wire. When you send or receive data, it sends a voltage to that clock wire 
+to let the CPU know it can start doing calculations. Think of our clock wires as the ticking of a clock. For every tick, 
+the CPU does one cycle of operations. When you send a voltage to the clock wire, it's referred to as a clock cycle. 
+If you have lots of data you need to process in a command. You need to run lots of clock cycles.
+ 3.4ghz, this number refers to the Clock speed of the CPU. Which is a maximum number of clock cycles that it can handle 
+ in a set in a certain time period. 3.40 gigahertz is 3.4 billion cycles per second. That's super fast. But just because 
+ it can run at this speed, doesn't mean it does. It just means that it can't exceed this number. Still, that number doesn't 
+ stop some people from trying. There's a way you can exceed the number of clock cycles on your CPU on almost any device. 
+ It's referred to as Overclocking and it increases the rate of your CPU clock cycles in order to perform more tasks. 
+ This is commonly used to increase the performance in low-end CPUs. 
+ 
+ Remember that transition book that I talked about in an earlier lesson? 
+ The CPU uses this to translate and perform functions on our data. This transition book is called an instruction set, 
+ which is literally just a list of instructions that our CPU is able to run. Functions like adding, subtracting, copying data 
+ are all instructions that our CPU can carry out. Every single program on your computer, while extremely complex, is broken down
+ into very small and simple instructions found in our instruction set. Instruction sets are hard-coded into our CPU. So different 
+ CPU manufacturers may use different instructions sets. But they generally perform the same functions. 
+ 
