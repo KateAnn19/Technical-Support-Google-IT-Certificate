@@ -267,6 +267,10 @@ is a copy of an operating system. So the process of reimaging involves wiping an
 This procedure is typically performed using a program that's stored on some external device like a USB memory stick, 
 or a CD ROM, or even a server accessible through the network. To access these programs and perform the reimage, you'll 
 need to use the BIOS to tell the computer to boot up from that external device.
+8) Understanding how computer hardware works is a really helpful skill set in IT support,
+since an IT department maintains the hardware that a company uses.
+A solid understanding of these computer internals will come in handy when troubleshooting hardware related problems, 
+and taking things apart to see how they work is just super fine.
 
 
 
