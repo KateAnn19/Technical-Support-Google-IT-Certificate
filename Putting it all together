@@ -282,3 +282,322 @@ but usually when you boot the computer, there will be a quick screen that tells 
 
 From there, you can change the basic BIOS settings of your machine.
 
+Building the computer:
+Beware Static electricity
+Motherboard (make sure it fits computer case - aka form factor 
+screw motherboard in
+put in CPU, secure it 
+heat sink
+Thermal paste 
+Screw in heat sink - opposite sides first
+Plug molex to motherboard (controls fan speed via motherboard)
+Install RAM into dimslots
+Hard drive
+use one SATA cable to connect our SSD to our motherboard.    Make sure you connect the SATA power plug to the SSD. SATA cables can only
+go in one way.
+install our case fan.
+And this is how this looks like. One thing to note is the small x. 
+You're going to go ahead and find a label on your motherboard that says, rear fans.
+Not all motherboards have this, but in this example, we do have that, so just to note.
+We get those into the grooves, there you go. My fan's installed, and now I'm going to
+go ahead and attach this to the Molex.
+There we go, now my fan is attached to my motherboard.
+For best practice, you want to create a wind tunnel that takes in air,
+blows it over your components, and then pushes it all out back. 
+Check out how our heat sink has a fan on it too. That's pretty normal, 
+since our CPU generates a lot of heat, and we want to help cool it off as best as we can.
+Now connect power supply 
+secure power supply
+And just another note, you can also install the power supply before adding it to the motherboard, 
+depending on how your case is laid out.
+
+connectors
+This big one right here, this is the one that powers our motherboard.
+Another one that we have, it's more of a legacy one is this four pin Molex. 
+These connectors were used heavily before SATA came out.
+Now, we use these connectors to power majority of the SATA devices today.
+Most modern machines today will probably use SATA power connectors for your hard drives so that it may 
+come with Molex to SATA adapters. Now, it's time for the fun part. 
+First, let's go ahead and connect our power supply to our motherboard. So that's this big pin as we discussed earlier. 
+It's going to go in right here.
+And plug that in like so.
+Next, we're going to go ahead and power the CPU, with this A pin Molex right here. It's pretty tight, but you should be 
+able to get it in.
+There you go. So what we just did was we have the power supply that is powering the motherboard and the CPU. 
+So now that we've hooked up the cable to our CPU and motherboard, the next thing that we need to hook up are these cables 
+that are sitting in our case. This is going to vary from case to case, but let's go through it. Some of these cables are 
+used for your case's buttons and lights. So for this one, I'm going to plug these in.
+so our case cables are now secured to our motherboard. One good idea is sometimes your motherboard will come with some 
+guides. This will help you fasten your cables to your motherboard so it's clean and tight on your case. 
+I'm just going to go ahead and do that right here.
+Now that we have our cables securely fastened to our case, let's don't forget one more thing, our 
+graphics card.
+We'll need that so that we can upload video to our monitor. We're going to plug this graphics card 
+into our PCI-Express slot on our motherboard.
+Just like the RAM, you are going to put a little bit of pressure when you insert this in. So don't
+feel bad by putting a little bit of pressure and you'll hear a click like this.
+Once you've done it, you can tightly secure it to your case. This is going to vary from case to case.
+And there you go, your graphics card has been installed. All right, I think that's it. Let's cover up our computer.
+First make sure you take your anti-static brace right away.
+Get our case.
+Put that in like so, and just plug, and that's it.
+There you go, we finally built our machine. 
+Last but not least, let's connect our monitor, keyboard, and mouse to the desktop.
+So first, let's get our keyboard. What we're going to do is we're going to connect this USB to the USB port on our desktop.
+Then we'll going to get our mouse, do the same thing. Connect this to our USB port.
+And then finally we're going to go ahead and connect our monitor. For this monitor, we're going to go ahead 
+and use a display port cable. I want to connect one end to our desktop, like so. Next, I want to plug this into my monitor.
+All right, this is the most interesting part. Let's see if all this works.
+So I'm going to power it on.
+I got a blue light, which is good. And of course it's going to vary from system to system.
+Let's see if something shows up on the monitor.
+So computer is booting up.
+Let's see, okay it looks like the monitor is receiving signal, which is good.
+There we have messages, success, there we go, it's working, perfect. 
+If you're having issues with your computer not starting up, that's okay. 
+Check that your power supply can supply the correct amount of wattage or make sure your connectors are in the right place.
+What's this? Non-system disk or disk error, replace and strike any key when ready.
+It looks like our disk doesn't have an operating system to boot into, no worries. 
+That's what we'll be discussing in the next set of lessons.
+We'll learn what an operating system is and what the main operating systems are and how to 
+install one. Well good job, you've got your computer up and running and the monitor is receiving signal, 
+so that's it. Let's take a moment and think about what you just did, not only did you learn about each component
+of a computer, but you figured out how they work individually and then we built one together. 
+ 
+
+
+Building the computer text:
+Now that we've learned what
+the computer components are and how they work we're going to assemble our
+very own computer, a full size desktop. Computers are incredibly fundamental to
+the work of an IT support specialist. There used in pretty much
+every aspect of the job. Aside from work, knowing how to build
+a computer might inspire you to try all kinds of cool stuff. You could custom build a gaming rig to
+play the most advanced game at the highest setting or like me make a home media
+server for all you photos and videos. Knowing how to build a computer
+is a skill that can be useful in lots of interesting ways. Before we get started,
+let's lay down some ground rules for this ground up build, sorry,
+I cannot help myself. We should think about
+electrostatic discharge and try to prevent unwanted static from
+harming our very expensive components. Have you ever rubbed yourself socks on a
+carpet and then accidentally zap someone? That's pretty harmless, but
+if you that to your new motherboard, you completely destroy it. So how do we prevent static discharge? We can go about this in two ways, we can touch in our two device that's
+plugged in but not powered on. FYI, you should do this every couple of
+minutes when assembling a new computer. Another option is to wear an anti-static
+wristband like the one I have here, let me get it. You connect the end of the clip to
+a non-painted metal surface like your computer. And then you separate on to your hands and
+voila your done. While we are on the subject
+of anti-static safety, I want to call out that when
+you buy computer parts, they'll come in anti-static bags to
+prevent accidental static electricity. Be sure to keep them inside the bags until
+you need to install them on your computer. Now, let's get making this computer, we'll
+start by laying down the foundation of our computer, the motherboard. Remember, there are lots of different
+form factors for motherboards and you want to make sure the one you
+purchase fits your computer case. We purchased the full size desktop cased
+and have a full size ATX motherboard. On the motherboard there
+are a lot of screw holes which coincide with the holes
+in the desktop case too. You want to match up the holes on the
+motherboard to the holes on the desktop. Once you figure out which holes
+to use screw in standoffs. Standoffs are used to raise and
+attach your motherboard to the case. In this instance our case
+has built in standoffs. Let's start start adding on components. Let's start by adding our components in. We'll start with the CPU, so let's
+take that out of our anti-static bag. You want to be very careful with these
+because they're very expensive, and you don't want to drop them. Once we've taken out the bag, let's line
+up the CPU with the motherboard's socket. Something to note is
+this marker right here. This has to align with the CPU
+socket on the motherboard. Also don't forget to make sure you get
+compatible CPU that fit your motherboard. We have a LGA CPU and
+an LGA-compatible motherboard socket. So let's go ahead and align
+the correct orientation of the CPU and secure it in place like this. So like mentioned before, you want to make sure that the pointers
+on the CPU and the socket are aligned. The easy part is putting the CPU in. The fun part is securing this,
+just note that when you secure the CPU in the socket you do need to use
+a bit of force so it's tightly secured in. Perfect, so
+now the CPU is secured in the socket. Now that our CPU is in place we need
+to add our heat sink on top of it. The heat sink is used to
+dissipate heat from our CPU. I want to show you some cool things. This part right here, this is what
+our CPU relies on to stay cool. It takes the heat from there and
+then uses this fan to blow it out. Before we attach the heat sink, we need
+to apply an even amount of thermal paste. Let me get that,
+this is the thermal paste. Thermal paste is used to better
+connect our CPU and heat sink. So the heat transfers
+from to the other better. To get started,
+apply a dab of thermal paste and spread evenly with a flat object. Lets do that on our CPU right here. So first thing that you want to do is slowly apply a slight dab on the CPU like so. Then with the flat object,
+apply the thermal paste evenly throughout your CPU to go half way
+right here, half way right here, Half way right here, and
+then half way right here. Just make sure that it spread
+evenly throughout the CPU. You may have to do this multiple
+times to get this correct. Okay, so once you have that in place,
+you're going to take your heat sink and then you're going to
+press it against the CPU. And something to note is that
+these screws right here, they align with the CPU socket. So that can guide you while
+you put the heat sink on. Great, once you have all
+four sockets aligned, go ahead and get your screw driver and
+then tighten down the sockets. So one thing to do, is to make sure that
+you screw the opposite sides first so you know that the heat
+sink is attached securely. So one thing I like to do again is
+just kind of go over my screws to make sure everything
+is tightened securely. Great, now that our screws are tightly
+on in our heat sink secured to the CPU You have to plug
+this Molex to the motherboard. This is important because this is
+what controls the fan speed via the motherboard. Perfect. So now, you've fully installed and
+connected your CPU to the motherboard. Next, let's install our RAM. Located DIMM slots on your motherboard. So, these are the DIMM slots
+like we discussed before. I have four slots available here and
+I have four RAM sticks. Let me pick those up. These are my RAM sticks, and
+of course, they're in my anti-static bag Let's take them out. So, as I mentioned before, this build,
+we're going to use DDR3 RAM. All right, one thing I like to do before
+I install my RAM is to make sure that I align these slots with my RAM slots so that way I'm not going to be forcing
+those in when it's time to install. So, if you see right here,
+your slots are right in the middle so something I do is before I put it in,
+just visually make sure that you got this right and then align the rest of your
+RAM sticks to the same position like this. You just want to go like this. Like this. And like this. That way, you're not going to be damaging
+your pins if you pick your RAM sticks up and accidentally force it in. So now we've got that, we're going to
+put this in this slot right here. Line up the pins correctly and
+push in the RAM until you hear it click. You'll know it's secure when both
+sides of the RAMs are locked in place. And there's something
+else you should know. Your slots right here,
+they are both black and white. We're going to stick to
+using the white slots. This too. And we're also going to
+put this one right here. There you go.
+You've securely fastened your RAM inside your motherboard. Next, we have our hard drive. In this example, we're using an SSD SATA
+hard drive instead of a HDD. We just need to use one SATA cable
+to connect it to our motherboard. So, first, I'm going to go ahead and
+slot this in this cage This is going to vary from case to case,
+but this one's going to be easy. All we have to,
+we just slide it in like so. And normally you will hear a click,
+[SOUND] Like that. Once that's in, we just need to use one SATA cable to
+connect our SSD to our motherboard. Let me go and get that. So here we go. Here's a SATA cable. So what I'm going to do, is I'm
+going to connect this end to our SSD. I'm going to connect this
+end to our motherboard. There we go, it's in. Remember, SATA cables
+can only go in one way. So now that we have our SSD installed,
+let's go ahead and install our case fan. And this is how this looks like. One thing to note is the small x. You're going to go ahead and find a label
+on your motherboard that says, rear fans. Not all motherboards have this, but
+in this example, we do have that, so just to note. We get those into the grooves,
+there you go. My fan's installed, and now I'm going to
+go ahead and attach this to the Molex. There we go,
+now my fan is attached to my motherboard. For best practice, you want to create
+a wind tunnel that takes in air, blows it over your components,
+and then pushes it all out back. Check out how our heat
+sink has a fan on it too. That's pretty normal,
+since our CPU generates a lot of heat, and we want to help cool it
+off as best as we can. We're almost done. Now, we're going to connect our power and
+test to see if everything's working. So let's grab our power supply. Here we are. First, let's secure our
+power supply to our case. Be careful not to damage
+the motherboard when you install it. What you're going to do is you're going to
+put this in slowly like that, And then just slide it in. There you go. One thing I like to do, is I'd like to put
+my cables all the way out to the side, so like I mentioned before, it's not going to
+go ahead and damage the motherboard. So now, I'm going to go ahead and
+start securing our power supply. Its always fun getting in. There we go So as you can see, I normally like
+to go and start with my fingers, so it's easier to get in. And once I put all my screws in,
+I'm going to go ahead and use my screw driver and
+fasten it, tighten that. There you go. So let's go ahead and
+tighten our screws right here. [INAUDIBLE] And four. Great. So now, we've secured our
+power supply to the case so it's not going to move anywhere. And just another note,
+you can also install the power supply before adding it to the motherboard,
+depending on how your case is laid out. Lets go back to our mess of connectors. There are a few things I
+would like to highlight. This big one right here, this is
+the one that powers our motherboard. Another one that we have, it's more of
+a legacy one is this four pin Molex. These connectors were used
+heavily before SATA came out. Now, we use these connectors to power
+majority of the SATA devices today. Most modern machines today will
+probably use SATA power connectors for your hard drives so that it may
+come with Molex to SATA adapters. Now, it's time for the fun part. First, let's go ahead and connect
+our power supply to our motherboard. So that's this big pin
+as we discussed earlier. It's going to go in right here. And plug that in like so. Next, we're going to go ahead and power
+the CPU, with this A pin Molex right here. It's [INAUDIBLE] pretty tight, but
+you should be able to get it in. There you go. So what we just did was we have the power
+supply that is powering the motherboard and the CPU. So now that we've hooked up the cable
+to our CPU and motherboard, the next thing that we need to hook up are
+these cables that are sitting in our case. This is going to vary from case to case,
+but let's go through it. Some of these cables are used for
+your case's buttons and lights. So for this one,
+I'm going to plug these in. Okay. Okay, so our case cables are now
+secured to our motherboard. One good idea is sometimes your
+motherboard will come with some guides. This will help you fasten your cables
+to your motherboard so it's clean and tight on your case. I'm just going to go ahead and
+do that right here. Now that we have our cables
+securely fastened to our case, let's don't forget one more thing,
+our graphics card. We'll need that so
+that we can upload video to our monitor. We're going to plug this graphics
+card into our PCI-Express slot on our motherboard. Just like the RAM, you are going to put a little bit of
+pressure when you insert this in. So don't feel bad by putting
+a little bit of pressure and you'll hear a click like this. Once you've done it,
+you can tightly secure it to your case. This is going to vary from case to case. And there you go,
+your graphics card has been installed. All right, I think that's it. Let's cover up our computer. First make sure you take your
+anti-static brace right away. Get our case. Put that in like so, and
+just plug, and that's it. There you go,
+we finally built our machine. Last but not least,
+let's connect our monitor, keyboard, and mouse to the desktop. So first, let's get our keyboard. What we're going to do is we're going to
+connect this USB to the USB port on our desktop. Then we'll going to get our mouse,
+do the same thing. Connect this to our USB port. And then finally we're going to
+go ahead and connect our monitor. For this monitor, we're going to go
+ahead and use a display port cable. I want to connect one end to our desktop,
+like so. Next, I want to plug this into my monitor. All right,
+this is the most interesting part. Let's see if all this works. So I'm going to power it on. I got a blue light, which is good. And of course it's going to
+vary from system to system. Let's see if something
+shows up on the monitor. So computer is booting up. Let's see, okay it looks like the monitor
+is receiving signal, which is good. There we have messages, success,
+there we go, it's working, perfect. If you're having issues with your
+computer not starting up, that's okay. Check that your power supply can supply
+the correct amount of wattage or make sure your connectors
+are in the right place. What's this? Non-system disk or disk error,
+replace and strike any key when ready. It looks like our disk doesn't have an
+operating system to boot into, no worries. That's what we'll be discussing
+in the next set of lessons. We'll learn what
+an operating system is and what the main operating systems are and
+how to install one. Well good job, you've got your
+computer up and running and the monitor is receiving signal,
+so that's it. Let's take a moment and
+think about what you just did, not only did you learn about each
+component of a computer, but you figured out how they work individually
+and then we built one together. It's quite an accomplishment. For your next assignment, we build
+a widget that will let you assemble a computer digitally, putting all
+the different parts together or if you have all the computer
+parts already, you can assemble one in real life and then write a short
+review process of how you did it. If you get stuck, don't worry, go back and review the different videos
+covering the various components. I know you can do it. I've had lots of fun teaching you
+all about hardware and don't worry, we'll meet again soon when you make
+it to the system administration IT infrastructure services course. Next up, my good friend, Cindy Quach, is going to introduce
+you to operating systems. Operating systems are absolutely essential
+in IT considering that without them none of this hardware we've discussed
+would be able to accomplish anything. 
+
+
+Repairing a mobile device
+Repairing a mobile device is different from repairing larger, more generic computers. First, there are thousands of 
+types of mobile devices. There's no way we can cover all the differences. Instead, let's check out some of the tools and 
+techniques that you rely on to keep mobile devices in your organization running. As an IT support specialist, you might 
+receive training in this area and be responsible for repairing devices that your organization owns. Before you attempt 
+any repairs, make sure you're familiar with your organization's policy around mobile device repair. Depending on the device, 
+you may or may not be able to repair it on your own, but not so fast. Keep in mind that even when you can repair a device on your own,
+it will usually void the warranty. So check the impact on the warranty before working on a device. With specific training, 
+you might be able to perform some repairs without violating the warranty of the device. For example, you might be allowed to 
+replace a cracked smartphone screen without avoiding the warranty. But you're probably not permitted to replace a damaged 
+charging port. If you're not allowed to perform your own repairs, then it may be your job to send the device out for repair 
+or replacement with an outside vendor or manufacturer. You should know and understand the return merchandise authorization or
+RMA process for each device that you deal with. The devices' warranty or the service agreement that your organization has with
+the devices manufacturer will determine how and when it'll be repaired or replaced. Depending on the device and your organization's 
+policies, you might also need to make sure that there's no proprietary or personal data on the device before it's sent off for repair
+by doing a factory reset on the device. A factory reset will remove all data, apps, and customizations from the device.
+We'll talk a lot more about factory resets and backing up in user data in future videos. For now, just keep in mind that
+the end user should be told what will happen to their data when a device is sent off for service. When repairing a mobile device, 
+follow the same best practices that we showed you for working on a PC. Protect against static discharge, use the right tools, 
+keep parts organized and labeled, taking pictures along the way can help a lot too, follow vendor documentation, and test
+the device to make sure it still works.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
