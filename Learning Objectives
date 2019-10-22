@@ -209,6 +209,20 @@ that there is a device that it can talk to, so it has to connect to something ca
 basic input output services. The BIOS is software that helps initialize the hardware in our computer and 
 gets our operating system up and running.
 
+Unlike the programs, you're probably used to running a web browser or operating system.
+The BIOS isn't stored on a hard drive. Our motherboard stores the BIOS in a special type of memory called, 
+the read-only memory chip, or ROM chip.
+
+Unlike RAM, ROM is non-volatile, meaning it won't erase the data if the computer is turned off. 
+Once the operating system loads, we're able to load drivers from non-essential devices, directly
+from the hard drive. In today's system, there is another player for BIOS called UEFI, which stands 
+for Unified Extensible Firmware Interface. UEFI performs the same function of starting your computer 
+as a traditional BIOS. But it's more modern and has better compatibility and support for newer hardware. 
+Most hardware out there today comes with UEFI built in. Eventually, UEFI will become the predominant BIOS.
+When you turn on a computer, you might notice a beeping from time to time. How computers run a test to make 
+sure all the hardware is working correctly. This is called a Power On Self Test or POST. And then BIOS runs it 
+when you boot up your computer.
+
 
 RECAP 
 
@@ -227,6 +241,15 @@ It's a good idea for you to be familiar with these things so that you can help e
 to get the most out of their mobile devices.
 6) As an IT support specialist, you'll work with peripherals like USB devices and display devices a lot. 
 Now, you'll be able to distinguish between the major types.
+7) An an IT support role, you might interact with the BIOS more often than you think. 
+BIOS settings control which devices to boot to and in an IT role, you might need to change the settings more 
+often than not. A frequently performed IT task is the reimaging of a computer. The term refers to a disk image which 
+is a copy of an operating system. So the process of reimaging involves wiping and reinstalling an operating system. 
+This procedure is typically performed using a program that's stored on some external device like a USB memory stick, 
+or a CD ROM, or even a server accessible through the network. To access these programs and perform the reimage, you'll 
+need to use the BIOS to tell the computer to boot up from that external device.
+
+
 
 
 2) software
