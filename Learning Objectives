@@ -96,6 +96,12 @@ Data Sizes :
 1024 megabytes = 1 gigabyte(gb)
 1024 gb's = 1 terabyte
 
+Remember that USB 2.0 has a bandwidth of 480 Mb/s, which is roughly 60MB of data transfer per second. 
+60mb/s
+USB 3.0 has a bandwidth of 5Gb/s which is roughly 640MB/s. 
+640mb/s
+You can refer to the video on "Peripherals" to review this content.
+
 there are 2 types of hard drives
 1) hard disks (hdd) (rpm is the revolution per minute - basically the speed in which data is read and written) 
 a hard drive with a higher RPM is faster. HDDs are prone to damage because there are a lot of moving parts. This susceptibility to damage 
@@ -120,9 +126,107 @@ electricity. Amps will pull as much electricity as is needed and volts will give
 
 The back of a device charger may have a 1 or 2.1a. A 2.1a (2.1 amps) will charge a device faster).
 
-Wattage - the amount of volts and amps a device needs
+Wattage - the amount of volts and amps a device needs. If you are playing video games or making videos on your computer you'll need a larger 
+wattage
+
+Small devices use SoC(system on a chip)(packs RAM, CPU and sometimes even storage onto a chip). They're small and use less battery power than
+if those components were separated. 
+
+Mobile devices, smart watches can all be peripherals. 
+
+Standard power, data, and display connector types found in mobile devices are : 
+USB-C, lightening adapter, Mini-USB, and a Micro-USB, a Micro-HDMI, and a Mini-HDMI, and this is a Mini DisplayPort. 
+
+Because mobile devices are generally small and have limited access to power,
+they run operating systems and applications software that specifically designed to maximize their performance.
+
+Mobile technology uses rechargeable batteries to carry power with the device, 
+wherever we take it. Rechargeable devices might have an external charger for a removable batteries, 
+or might have a cradle stand or wireless charger. 
+So rechargeable devices might have an external charger for movable battery, or might have a cradle stand or wireless charger.
+
+Rechargeable batteries have a limited lifespan which is measured in charge cycles.
+Charge cycle is one full charge and discharge of the battery. 
+When a battery is reaching the end of its lifespan, it may take longer to charge and might not hold as much charge as when it was new.
+For some devices, compare the current cycle count of your battery with the rate at cycle count of that battery type to see 
+how much more life to expect out of it. 
+You need an external power source to add power to a battery. 
+This could come from a wall outlet, another battery, or even a solar panel.
+You also need a charging circuit that manages the power transfer from the external power source to the rechargeable battery. 
+This circuit works a lot like a power supply unit or PSU
+It makes sure the input power is converted to the correct output power. 
+Instead of using a large PSU, rechargeable devices use more portable power adapters, power supplies, or chargers. 
+A portable power supply, powers our device while also charging the battery. 
+
+Mismatching chargers to devices can damage the battery, the device, and the charger. 
+A lot of chargers and power supplies use USB connectors, but you'll see a wide variety of charging connectors. 
+Rechargeable batteries can be damaged by very cold or very hot environments. 
+Don't charge or discharge rechargeable batteries unless they're within their safe operating temperature range. 
+It's not just that a damaged rechargeable battery might not perform well, it can also be very dangerous.
+Batteries can swell, rupture, and sometimes even catch fire. 
+Before working with a damaged battery, you should know how to safely handle it.
+You'll find some supplemental readings after this video that explains how to safely handle lithium ion batteries,
+which is a very common type of rechargeable battery. Safe handling procedures vary based on the battery type, 
+so be sure to read up on proper procedures before you work with a damaged batter.
+When a battery reaches the end of its life, you'll need to replace it. 
+Some devices will slow themselves down when a battery is getting old, to make the battery lasts longer. 
+If your device is running much slower than usual or shutting down unexpectedly, one thing to check is the battery life. 
+Some devices have batteries that are designed to be replaced by the end user, other devices have batteries that are 
+very difficult to replace like small laptops and mobile devices. As an IT support specialist, 
+you might receive special training on how to replace batteries and devices that you support, 
+or you might be the person sending the device out for battery replacement and then returning the device to the end user.
+
+MB is megabyte or unit of data storage, while capital M lower case b forward slash s is a megabit per second, 
+which is a unit of data transfer rate.
+People often mistake speeds of 40 megabit per second to mean that you can transfer 40 megabytes of data per second. 
+Remember, that one byte is 8 bits, so to transfer a one megabyte file in a second 
+you need an 8 megabits per second connection speed. 
+So, to transfer 40 megabytes of data in a second, you need a transfer speed of 320 megabits per second. 
+
+If you connect a USB 2.0 device into a USB 3.0 port, you won't get 3.0 transfer speeds.
+But you can still use the port since it's backward compatible, meaning older hardware work with newer hardware. 
+The ports are easy to differentiate. Let me show you. In general, USB 2.0 are black and USB 3.0 are blue and 3.1 ports are teal. 
+This may change depending on manufacturers. There are lots of types of USB connectors
+
+The most recent one is the type C connector which is meant to replace many peripheral connections. 
+It's quickly becoming a universal standard for display and data transfer. In addition to USB peripherals, 
+you should also be aware of display peripherals. There are some common inputs standards to know. 
+Most computer monitors will have one or more of these connections, but you might encounter some older standards too. 
+DVI. DVI cables generally just output video. If you need to hook up a monitor or projector for a slide presentation and 
+you want audio too, you may be out of luck. Instead, you want to look at one of the following cables. HDMI. 
+This has become a standard in lots of televisions and computers nowadays and outputs both video and audio. 
+Another standard that's become popular among manufacturers is a displayPort which also outputs audio and video. 
+In addition to audio and video, USB type C can also do data transfer and power. 
+
+Services or Drivers
+
+If you just clicked on the key from your keyboard, you'd only be sending a byte to the CPU.
+The CPU doesn't know what this is, because it doesn't have instructions on how to deal with it. 
+Turns out our devices also use programs to tell the CPU how to run them. 
+These programs are called services or drivers. The drivers contain the instructions our CPU 
+needs to understand external devices like keyboards, webcams, printers. Our CPU doesn't know 
+that there is a device that it can talk to, so it has to connect to something called the BIOS, or 
+basic input output services. The BIOS is software that helps initialize the hardware in our computer and 
+gets our operating system up and running.
 
 
+RECAP 
+
+technical problems one may encounter 
+1) make sure components are compatible with motherboard
+2) make sure there isn't an issue with the power supply - power supplies can fail for reasons like burnouts, power surges or lightning strikes
+(knowing how to diagnose power issues and replace a failed power supply is a necessary skill) 
+3) be sure to use the proper voltage for your electronics 
+4) As an IT support specialist, you might be responsible for helping in users with their mobile devices.
+This might include setup, troubleshooting, repairing, and replacing mobile devices.
+5) IT support specialist often have to troubleshoot battery life and device charging. 
+The first step is to make sure the charger, the battery, and the device, are all designed to work with each other. 
+We'll talk about sending out devices for repair and troubleshooting skills in future videos, so stay tuned. 
+For iOS and Android, there are also some things that you could do to make the battery lasts as long as possible.
+It's a good idea for you to be familiar with these things so that you can help educate end users on the best ways 
+to get the most out of their mobile devices.
+6) As an IT support specialist, you'll work with peripherals like USB devices and display devices a lot. 
+Now, you'll be able to distinguish between the major types.
 
 
 2) software
