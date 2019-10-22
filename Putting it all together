@@ -78,3 +78,24 @@ If you have lots of data you need to process in a command. You need to run lots 
  need a compatible motherboard with a different number of pins aligned with the motherboard RAM slots. Just like with the CPU, make
  sure that your motherboard is compatible with any RAM sticks that you buy.
  
+ Motherboard
+ Every motherboard has a few key characteristics. First is the chipset, which decides how components talk to each other on our machine.
+ The chipset on motherboards is made up of two chips. One is called the Northbridge that interconnects stuff like RAM and video cards. 
+ The other chip is the Southbridge which maintains our IO or input/output controllers, like hard drives and USB devices that input and 
+ output data. In some modern CPUs, the Northbridge has been directly integrated into the CPU so there isn't a separate Northbridge 
+ chipset.A chipset is a key component of our motherboard that allows us to manage data between our CPU, RAM, and peripherals. 
+ Peripherals are the external devices we connect to our computer like: a mouse, keyboard, and a monitor.
+ In addition to the chipsets, motherboards have another key characteristic 
+ which allows the use of expansion slots. Expansion slots also give us the ability to increase the functionality of our 
+ computer. If you want to upgrade your graphics card, you could purchase one and just install it on your motherboard through
+ the expansion slot. The standard for an expansion slot today is the PCI Express or Peripheral Component Interconnect Express.
+ A PCIe bus looks like a slot on the motherboard and a PCIe base expansion card looks like a smaller circuit board. The last 
+ component of motherboards that we'll discuss is form factor. There are different size of motherboards that are available today. 
+ These sizes of form factors determine the amount of stuff we can put in it and the amount of space we'll have. The most common form
+ factor for motherboards is ATX which stands for Advanced Technology eXtended. ATX actually comes in different sizes too. In desktops, 
+ you'll commonly see full sized ATX's. If you don't want to use an ATX form factor, you could use an ITX or Information Technology 
+ eXtended form factor. These are much smaller than ATX boards. For example, the Intel NUC uses a variation of the ITX board which
+ comes in three board sizes; mini-ITX, nano-ITX, and pico-ITX. When building your computer, you will need to keep in mind what type 
+ of form factor you want. Do you want to build something small that can't handle as much workload? Or, do you want a powerhouse 
+ workstation that you can add lots of functionality to? The form factor will also play a role into what expansion slots you might
+ want to use. 
